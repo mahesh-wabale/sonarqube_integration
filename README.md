@@ -15,7 +15,10 @@ Click on Add SonarQube.
 ![image](https://github.com/user-attachments/assets/35c2ffaf-a8c5-4817-ad3a-be0b03f1733b)
 
 Enter the Name, Server URL, and authentication token.
+
 Name: A name to identify this SonarQube server.
+Server URL: URL of your SonarQube server (e.g., http://your-sonarqube-server).
+
 
 
 
