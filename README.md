@@ -16,14 +16,7 @@ Click on Add SonarQube.
 
 
    
-        
-    • Click on Save to apply the settings.
-        
-    • Click on Save to apply the settings.
-    
-    •  Step-by-Step Guide to Create a SonarQube Token
-    
-    1. Login to SonarQube:
+   
 Open your web browser and navigate to your SonarQube
 instance (e.g., http://your-sonarqube-server).Log in with your SonarQube credentials. You need to have
 sufficient permissions (typically an administrator or project-
