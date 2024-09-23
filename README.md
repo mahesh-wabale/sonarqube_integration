@@ -14,11 +14,15 @@ Click on Add SonarQube.
 
 ![image](https://github.com/user-attachments/assets/35c2ffaf-a8c5-4817-ad3a-be0b03f1733b)
 
-    • Enter the Name, Server URL, and authentication token.
-    
+
+        • Enter the Name, Server URL, and authentication token.
+        
         ◦ Name: A name to identify this SonarQube server.
+        
         ◦ Server URL: URL of your SonarQube server (e.g., http://your-sonarqube-server).
+        
         ◦ Authentication Token: Use the token credential ID sonar_token (you can create a secret text credential in Jenkins and use its ID here).
+        
         
     • Click on Save to apply the settings.
     
