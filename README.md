@@ -3,9 +3,11 @@ Step 1: Install SonarQube Scanner on Jenkins
   1.Install the SonarQube Scanner Plugin:
 
 Go to Jenkins Dashboard > Manage Jenkins > Manage Plugins.
+
 Search for SonarQube Scanner in the Available tab.
 Install the plugin and restart Jenkins if required.
 Configure SonarQube in Jenkins:
+
 Go to Jenkins Dashboard > Manage Jenkins > Configure System.
 Scroll down to the SonarQube servers section.
 Click on Add SonarQube.
@@ -13,11 +15,15 @@ Click on Add SonarQube.
 ![image](https://github.com/user-attachments/assets/35c2ffaf-a8c5-4817-ad3a-be0b03f1733b)
 
     • Enter the Name, Server URL, and authentication token.
+    
         ◦ Name: A name to identify this SonarQube server.
         ◦ Server URL: URL of your SonarQube server (e.g., http://your-sonarqube-server).
         ◦ Authentication Token: Use the token credential ID sonar_token (you can create a secret text credential in Jenkins and use its ID here).
+        
     • Click on Save to apply the settings.
+    
     •  Step-by-Step Guide to Create a SonarQube Token
+    
     1. Login to SonarQube:
 Open your web browser and navigate to your SonarQube
 instance (e.g., http://your-sonarqube-server).Log in with your SonarQube credentials. You need to have
