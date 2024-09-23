@@ -32,26 +32,30 @@ Open your web browser and navigate to your SonarQube
 instance (e.g., http://your-sonarqube-server).Log in with your SonarQube credentials. You need to have
 sufficient permissions (typically an administrator or project-
 level admin) to create a token.
+
 2. Access Your User Account Settings:
 After logging in, click on your user profile avatar or your
 username in the top-right corner of the SonarQube dashboard.
 From the dropdown menu, select My Account
-3. Navigate to Security:
+
+4. Navigate to Security:
 In the My Account section, click on the Security tab on the left sidebar.
 
-4. Generate a New Token:
+5. Generate a New Token:
 Under the Generate Tokens section, you will see an option to
 create a new token.
-• Provide a name for your token (e.g., Jenkins
+
+6. Provide a name for your token (e.g., Jenkins
 Integration Token). This name is just a label for you to
 recognize the token later.
 • Click the Generate button.
-5. Copy the Token:
+7. Copy the Token:
 Once the token is generated, it will be displayed on the screen.
 Copy the token immediately as it will only be shown once.
 Store this token securely, as you’ll need it to configure the
 SonarQube integration with Jenkins
-6. Use the Token in Jenkins:
+
+9. Use the Token in Jenkins:
 Go to your Jenkins dashboard.
 
 Navigate to Manage Jenkins > Manage Credentials.
