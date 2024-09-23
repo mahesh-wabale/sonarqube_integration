@@ -69,7 +69,7 @@ pipeline.
 Step 2: Configure Jenkins Pipeline for SonarQube Analysis
  use above Jenkinsfile 
 
-Step 4: Verifying Integration
+Step 3: Verifying Integration
 Check SonarQube Dashboard:
 
 ![image](https://github.com/user-attachments/assets/d20fdeb7-ec61-45c7-ae6c-aebda70d51f5)
